@@ -1,2 +1,6 @@
+
 	Hola mundo
 Hola desde la rama principal
+Hola mundo
+Este es un conflicto
+
