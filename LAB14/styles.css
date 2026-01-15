@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    font-family: 'Arial', sans-serif;
+}
+
+.postal {
+width: 400px;
+padding: 30px;
+text-align: center;
+
+background-image: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+),
+url(lol.jpg);
+
+background-size: cover;
+background-position: center;
+
+border-radius: 15px;
+border: 2px solid #d4af37;
+box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+
+color: #ffffff
+}
+
+.postal button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: #d4af37;
+    color: #0f172a;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.postal button:hover {
+    background-color: #facc15;
+}
